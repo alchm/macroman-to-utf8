@@ -1,6 +1,6 @@
 <?php
 
-function MacRomanToUtf8($str, $breakLigatures = 'none')
+function macRomanToUtf8($str, $breakLigatures = 'none')
 {
     // $breakLigatures : 'none' | 'fifl' | 'all'
     // 'none' : don't break any MacRoman ligatures, transform them into their utf-8 counterparts
